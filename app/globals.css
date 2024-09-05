@@ -1,0 +1,268 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.card1 {
+  width: auto;
+  /*height: 181px;*/
+  border-radius: 16px;
+  background-color: #ffffff;
+  padding: 16px;
+}
+@media (min-width: 1024px) {
+  .card1 {
+    width: 630px;
+    /* height: 181px;*/
+  }
+}
+.icon1 {
+  position: absolute;
+}
+.text1 {
+  width: 166px;
+  height: 32px;
+  font-size: 16px;
+  color: #333333;
+  position: absolute;
+  top: 148px;
+}
+.icon-small1 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 224px;
+  left: 93px;
+  padding: 2px;
+}
+.pozadina {
+  background-image: url("images/pozadinahp.png");
+  background-size: cover;
+}
+.pozadina2 {
+  background-image: url("images/moneyrise.png");
+  height: 521px;
+  width: 1240px;
+}
+.pozadinaboja {
+  background: #0a0f1b;
+  background-size: cover;
+  height: auto;
+}
+.pozadinaboja2 {
+  background: #0a0f1b;
+  height: auto;
+}
+.granica {
+  border: 1px solid white;
+}
+.zlatnozuta {
+  color: #c69638;
+}
+.primarna {
+  color: #002857;
+}
+.poster {
+  width: 1300px;
+  height: 588px;
+  top: 1610px;
+  left: 70px;
+  gap: 0px;
+  border-radius: 40px;
+  opacity: 0;
+}
+.little-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: transparent;
+  border: 2px solid #ccc; /* Border color */
+  border-radius: 38px;
+  width: 250px;
+}
+.card3 {
+  width: 320px;
+  height: 320px;
+  position: relative;
+}
+.howitworks {
+  width: fit;
+  height: auto;
+}
+.card-image3 {
+  object-fit: cover;
+}
+.card-title3 {
+  font-size: 24px;
+  margin-top: 20px;
+}
+.pakets {
+  border-radius: 18px;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+}
+@media (min-width: 768px) {
+  .pakets {
+    width: 568px;
+    /* height: 542px;*/
+    height: fit-content;
+  }
+}
+
+.zlatntext {
+  color: #c69638;
+}
+.rec {
+  /* Accent */
+  background: #f77000;
+  color: white;
+  border-bottom: 1px solid #f77000;
+  border-radius: 10px;
+  margin-bottom: -15px;
+  z-index: 1;
+}
+.paketsdesc {
+  padding: 5%;
+  width: 100%;
+  font-size: 16px;
+  line-height: 24px;
+}
+.paketsdesc p {
+  margin-bottom: 10px;
+}
+.paketsdesc ul {
+  list-style-type: disc; /* Change to 'disc' to display as dots */
+  padding: 17px;
+}
+.paketsdesc li {
+  margin-bottom: 5px;
+}
+.card-footerb3 {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 30px 40px;
+  gap: 8px;
+  height: 47px;
+  left: 32px;
+  right: 32px;
+  bottom: 32px;
+  margin-bottom: 10%;
+}
+.left {
+  flex: 1;
+  padding: 3rem;
+}
+.right {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+}
+.right > div {
+  flex: 1;
+}
+ul {
+  list-style: none;
+}
+.belitekst {
+  color: white !important;
+}
+.kontejner {
+  background: #0e1428;
+}
+.bojakarticeUS {
+  background: #0e162a;
+}
+.pozadina3 {
+  background-image: url("images/pozadina3.png");
+}
+@media (max-width: 768px) {
+  .nevidljivo-mob {
+    display: none;
+  }
+}
+.slideUpAnimacija {
+  animation: slideUp 1s ease-out;
+}
+@keyframes slideUp {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.crafy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 96px 0px 160px;
+  gap: 64px;
+  width: auto;
+  height: auto;
+  background: linear-gradient(90deg, #00e5ff 0%, #1200ff 100%);
+} /*----------------paketi-----------*/
+.plan-name {
+  margin: 5% 25% 0%;
+}
+.plan-name-name {
+  margin: 3% 3% 3% -10%;
+  padding: 1% 10% 1% 10%;
+}
+.custom-li {
+  background-image: url("./images/check-Icon.svg");
+  background-size: 1em;
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  padding-left: 1.5em;
+  list-style-type: none;
+  line-height: 1.7;
+}
+.bluebutton {
+  background-color: #1200ff;
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+  border: 1px solid #1200ff;
+  width: 320px;
+  height: 48px;
+  padding: 8px 18px;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bluebutton:hover {
+  background-color: #0000cc;
+}
+
+.text-citirano {
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 55.81px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+
+.bledunjavi {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+.sivkasta {
+  background: #eeeeee66;
+}
+.aboutuspozadina {
+  background-image: url("images/blueworld.png");
+  background-size: cover;
+}
+
+.plavigradijent {
+  background: linear-gradient(90deg, #ebf8fe, #b3e5fc);
+}
